@@ -11,6 +11,12 @@
 
 ---
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/americanoame/React-Employee-List/assets/77306236/fd51e7ab-a97d-4e03-bee0-9395137d2bad)  |  ![](https://github.com/americanoame/React-Employee-List/assets/77306236/5a92ac78-98b3-4b38-ae78-67feaf95ad77)
+
+
+
 ![Screenshot 3](https://github.com/americanoame/React-Employee-List/assets/77306236/fd51e7ab-a97d-4e03-bee0-9395137d2bad)
 ![Screenshot 4](https://github.com/americanoame/React-Employee-List/assets/77306236/5a92ac78-98b3-4b38-ae78-67feaf95ad77)
 
