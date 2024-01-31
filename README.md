@@ -14,7 +14,7 @@
 
 Create User                |  Update User
 :-------------------------:|:-------------------------:
-![](https://github.com/americanoame/React-Employee-List/assets/77306236/769e7266-dfd3-4dcb-91fe-53306d0132e9)  |  ![](https://github.com/americanoame/React-Employee-List/assets/77306236/5a92ac78-98b3-4b38-ae78-67feaf95ad77)
+![](https://github.com/americanoame/React-Employee-List/assets/77306236/769e7266-dfd3-4dcb-91fe-53306d0132e9)  |  ![](https://github.com/americanoame/React-Employee-List/assets/77306236/3e43977c-540b-435e-930e-93c2541fc369)
 
 ## Getting Started
 
