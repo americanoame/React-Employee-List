@@ -1,5 +1,6 @@
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
+import Home from './pages/home/Home';
 
 import './index.css';
 
@@ -8,7 +9,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        
+        <Route exact path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
