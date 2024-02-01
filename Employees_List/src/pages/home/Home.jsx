@@ -44,6 +44,25 @@ const Home = () => {
     fetchData();
   }, []);
 
+  const handleDelete = async (id) => {
+    try {
+      const response = await fetch(`http://localhost:3000/users/${id}`, {
+        method: 'DELETE',
+      });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      // Reload the page after successful deletion
+      location.reload();
+
+      setData((prevData) => prevData.filter((item) => item.id !== id));
+    } catch (error) {
+      console.error('Error deleting user:', error.message);
+    }
+  };
+
+
   return (
     <div className="d-flex flex-column justify-content-center align-items-center bg-light vh-100">
       {isLoading && <Loader />}
@@ -88,7 +107,7 @@ const Home = () => {
                         Edit
                       </Link>
 
-                      <Button className="btn btn-sm media-btn btn-danger">
+                      <Button onClick={() => handleDelete(item.id)} className="btn btn-sm media-btn btn-danger">
                         <i className="fa fa-eye" aria-hidden="true">
                           <FaTrashAlt />
                         </i>
