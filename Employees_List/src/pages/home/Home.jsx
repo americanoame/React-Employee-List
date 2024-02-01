@@ -77,14 +77,16 @@ const Home = () => {
                     <td>{item.email}</td>
                     <td>{item.phone}</td>
                     <td>
-                      <Link className="me-2">
+                    <Link to={`/user-details/${item.id}`} className="me-2">
                         <i className="fa fa-pencil" aria-hidden="true">
                           <FaPencilAlt />
                           User Details
                         </i>
                       </Link>
 
-                      <Link className="btn btn-sm btn-warning media-btn me-2">Edit</Link>
+                      <Link to={`/update/${item.id}`} className="btn btn-sm btn-warning media-btn me-2">
+                        Edit
+                      </Link>
 
                       <Button className="btn btn-sm media-btn btn-danger">
                         <i className="fa fa-eye" aria-hidden="true">
