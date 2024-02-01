@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Michael bilarty ",
+      "name": "Michael bilarty",
       "username": "bobjohnson",
       "email": "michaelbilarty@gmail.com ",
       "phone": "848 763 7837"
@@ -27,13 +27,6 @@
       "username": "bobjohnson",
       "email": "careremboshelo@hotmail.com ",
       "phone": "848 763 7837"
-    },
-    {
-      "name": "Akro boca",
-      "email": "akroboca@gmail.com",
-      "phone": "723 467 8723",
-      "id": 5
     }
-    
   ]
 }
